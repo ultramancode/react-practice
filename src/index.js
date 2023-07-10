@@ -8,10 +8,14 @@ import CommentList from "./chapter_05/CommentList";
 import Notification from "./chapter_06/Notification";
 import NotificationList from "./chapter_06/NotificationList";
 import Accomodate from "./chapter_07/Accomodate";
+import ConfirmButton from "./chapter_08/ConfirmButton";
+import LandingPage from "./chapter_09/LandingPage";
+import AttendanceBook from "./chapter_10/AttendanceBook";
+import SignUp from "./chapter_11/SignUp";
 //매초 새 엘리먼트 생성
 ReactDOM.render(
     <React.StrictMode>
-      <Accomodate/>
+      <SignUp/>
     </React.StrictMode>,
     document.getElementById(
         'root'
