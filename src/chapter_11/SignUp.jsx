@@ -21,6 +21,7 @@ function SignUp(props) {
   };
 
   return (
+      //폼 요소 jsx로 작성
       <form onSubmit={handleSubmit}>
         <label>
           이름:
